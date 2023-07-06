@@ -14,9 +14,12 @@ NAMA    : ALIYAH ASMARANI
 
 # PERINTAH
 > Buatlah sebuah program kalkulator sederhana, dengan aturan sbb:
+> 
 > Kalkulator dapat melakukan penjumlahan, pengurangan, dan perkalian dan pembagian
+> 
 > Penjumlahan, pengurangan dan perkalian dan pembagian dijadikan method yang berbeda masing-masingnya, contoh: function pembagian(){…}, function pengurangan(){…}, dst
-Berikan komentar di dalam kode
+> 
+>Berikan komentar di dalam kode
 
 # INPUT 
 ```
@@ -55,8 +58,11 @@ if(isset($_POST['submit'])) {
 ?>
 ```
 > Fungsi jumlah digunakan untuk menjumlahkan dua bilangan.
+> 
 > Fungsi pengurangan digunakan untuk mengurangkan satu bilangan dari bilangan lainnya.
+> 
 > Fungsi perkalian digunakan untuk mengalikan dua bilangan.
+> 
 > Fungsi pembagian digunakan untuk membagi satu bilangan dengan bilangan lainnya.
 ```
 <!doctype html>
@@ -108,11 +114,17 @@ if(isset($_POST['submit'])) {
 </html>
 ```
 > Ketika halaman dimuat, gambar "kalkulator.png" akan ditampilkan di bagian atas halaman.
+> 
 > Judul "Aplikasi Kalkulator" ditampilkan di tengah halaman.
+> 
 > Terdapat sebuah formulir yang meminta pengguna memasukkan dua bilangan.
+> 
 > Ketika pengguna menekan tombol "Hitung" yang terdapat dalam formulir, kodingan PHP dijalankan.
+> 
 > Jika tombol "Hitung" ditekan, maka dilakukan perhitungan menggunakan fungsi-fungsi matematika dasar yang telah didefinisikan sebelumnya (jumlah, pengurangan, perkalian, dan pembagian).
+> 
 > Hasil perhitungan ditampilkan di bawah formulir.
+> 
 > Jika pembagian dilakukan dengan pembagi nol, maka akan ditampilkan pesan "Error: Pembagian dengan nol tidak valid".
 
 # OUTPUT
